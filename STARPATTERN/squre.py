@@ -1,3 +1,10 @@
+# Enter the number of rows: 4
+# * * * * 
+# * * * *
+# * * * *
+# * * * *
+
+
 num=int(input("Enter the number of rows: "))
 for row in range(num):
     for col in range(num):
