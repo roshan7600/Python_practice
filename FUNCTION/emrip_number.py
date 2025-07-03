@@ -23,6 +23,6 @@ def emirp(num):
     rev = reverse(num, pos)
     if num != rev and prime(num) and prime(rev):
         return 'emirp num'
-    return 'not emirp'
+    return 'not a emirp'
 
 print(emirp(num))
