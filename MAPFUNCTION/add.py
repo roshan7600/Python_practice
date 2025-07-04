@@ -1,0 +1,1 @@
+print(list(map(lambda a,b: a+b ,map(int,input('enter a element: ').split()),map(int,input('enter a element: ').split()))))
