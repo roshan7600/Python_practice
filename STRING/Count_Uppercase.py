@@ -19,9 +19,9 @@ print(count)
 # COUNT SPECIAL CHARACTER
 
 
-s='Ro#sHa&n@P'
+s='Ro#sH1a&n@P'
 count=0
-for ch in s:
-    if not('a'<=ch<='z' or 'A'<=ch<='Z'):
+for ch in s: 
+    if not('a'<=ch<='z' or 'A'<=ch<='Z' or '0'<=ch<='9'):
         count+=1
 print(count)        
