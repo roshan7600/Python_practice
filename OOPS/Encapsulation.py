@@ -10,6 +10,11 @@
 # obj.setter()
 # print(obj.getter())
 
+# Real-life example of a ATM machine ,when we use ATM  machine then only interact with 
+# cash withdraw , deposite,check balance but we don't see or access how to bank database 
+# or cash management work internally, but pin ,and balance are private in this encapulation
+# to use .
+
 
 class ATM:
     def __init__(self,owner,balance):
