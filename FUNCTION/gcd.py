@@ -4,7 +4,7 @@
 #         if a % gcd == 0 and b % gcd == 0 and c % gcd == 0:
 #             return gcd
 #         gcd -= 1
-#     return 1
+#     
 
 # print(gcd(10, 20, 30))  # Output: 10
 
