@@ -16,7 +16,7 @@ class Dog(Animal):
 class Cat(Animal):
     def speak(self):
         print('cat meows')        
-    def make_sound(Animal)  :
+def make_sound(Animal)  :
         Animal.speak()      
-    make_sound(Dog())
-    # make_sound(Cat())    
+make_sound(Dog())
+make_sound(Cat())    
